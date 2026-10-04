@@ -1,0 +1,27 @@
+{
+  "benchmark": "CLOC_Lab_Results",
+  "project": "L_VLLM",
+  "run_timestamp": "2026-09-30T17:14:20.030944+00:00",
+  "source": "https://github.com/AlDanial/cloc",
+  "results": {
+    "framework": "CLOC \u2014 Count Lines of Code (via project_facts.json)",
+    "source": "https://github.com/AlDanial/cloc",
+    "total_files": 7477,
+    "total_source_lines": 1322747,
+    "languages": {
+      "Python": 4908,
+      "Rust": 342,
+      "CUDA": 167,
+      "Shell": 150,
+      "C++": 53,
+      "C++ header": 50,
+      "C/C++ header": 41,
+      "JavaScript": 7,
+      "Protobuf": 2
+    },
+    "primary_language": "Python",
+    "language_count": 9,
+    "lines_per_file": 176.9,
+    "status": "PASS"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "benchmark": "HELM_Lab_Results",
+  "project": "L_VLLM",
+  "tier": "TIER_4_INFERENCE_AGENTS",
+  "slug": "vllm-project/vllm",
+  "commit": "1117140edbaf",
+  "run_timestamp": "2026-09-30T15:11:19.033679+00:00",
+  "isolation": {
+    "environment": "local",
+    "model": "distilbert-base-uncased",
+    "hf_load_time_sec": 2.96,
+    "platform": "win32",
+    "python": "3.12.10"
+  },
+  "results": {
+    "framework": "HELM \u2014 Stanford Holistic Evaluation of Language Models (proxy)",
+    "source": "https://github.com/stanford-crfm/helm",
+    "note": "Full HELM requires GPU. Proxy: consistency + latency across 3 deterministic runs.",
+    "input": "Project L_VLLM provides 7477 tracked files across ['Python', 'Rust'] with 1322747 source lines.",
+    "runs": [
+      {
+        "seed": 0,
+        "label": "LABEL_0",
+        "score": 0.5319,
+        "latency_ms": 96.0
+      },
+      {
+        "seed": 1,
+        "label": "LABEL_0",
+        "score": 0.5319,
+        "latency_ms": 49.42
+      },
+      {
+        "seed": 2,
+        "label": "LABEL_0",
+        "score": 0.5319,
+        "latency_ms": 51.49
+      }
+    ],
+    "consistency": "PASS",
+    "avg_latency_ms": 65.64,
+    "status": "PASS",
+    "language_diversity": 9,
+    "primary_language": "Python",
+    "fairness_keywords_found": false
+  }
+}

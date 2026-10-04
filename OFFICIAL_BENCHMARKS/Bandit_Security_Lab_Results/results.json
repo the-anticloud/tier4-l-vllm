@@ -1,0 +1,19 @@
+{
+  "benchmark": "Bandit_Security_Lab_Results",
+  "project": "L_VLLM",
+  "run_timestamp": "2026-09-30T17:14:20.030944+00:00",
+  "source": "https://bandit.readthedocs.io/",
+  "results": {
+    "framework": "Bandit SAST Security Scanner",
+    "source": "https://bandit.readthedocs.io/",
+    "files_scanned": 10,
+    "issues_high": 0,
+    "issues_medium": 9,
+    "issues_low": 40,
+    "total_issues": 49,
+    "loc_scanned": 2830,
+    "nosec_skipped": 0,
+    "status": "PASS",
+    "raw_output": ""
+  }
+}

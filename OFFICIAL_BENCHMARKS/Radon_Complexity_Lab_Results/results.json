@@ -1,0 +1,20 @@
+{
+  "benchmark": "Radon_Complexity_Lab_Results",
+  "project": "L_VLLM",
+  "run_timestamp": "2026-09-30T17:14:20.030944+00:00",
+  "source": "https://radon.readthedocs.io/",
+  "results": {
+    "framework": "Radon \u2014 Cyclomatic Complexity & Maintainability Index",
+    "source": "https://radon.readthedocs.io/",
+    "files_analyzed": 10,
+    "average_complexity": {
+      "grade": "B",
+      "score": 5.223404255319149
+    },
+    "complexity_grade": "B",
+    "complexity_score": 5.223404255319149,
+    "status": "PASS",
+    "raw_output": "E:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_VLLM\\UPSTREAM\\setup.py\n    M 987:4 precompiled_wheel_utils.extract_precompiled_and_patch_package - C (20)\n    F 1258:0 get_vllm_version - C (19)\n    F 1312:0 get_requirements - C (15)\n    M 255:4 cmake_build_ext.configure - C (14)\n    M 828:4 precompiled_wheel_utils.determine_wheel_url_rocm - C (12)\n    M 898:4 precompiled_wheel_utils.determine_wheel_url - C (12)\n    C 206:0 cmake_build_ext - C (11)\n    M 399:4 cmake_build_ext.run - B (9)\n    M 686:4 precompiled_wheel_utils.resolve_rocm_wheel_variant - B (9)\n    F 150:0 find_tcmalloc - B (8)\n    M 213:4 cmake_build_ext.compute_num_jobs - B (8)\n    M 340:4 cmake_build_ext.build_extensions - B (8)\n    C 517:0 precompiled_wheel_utils - B (8)\n    M 521:4 precompiled_wheel_utils.fetch_metadata_for_variant - B (8)\n    M 603:4 precompiled_wheel_utils.detect_system_cuda_variant - B (7)\n    C 487:0 precompiled_build_rust - B (6)\n    M 1114:4 precompiled_wheel_utils.get_base_commit_in_main_branch - B (6)\n    F 1209:0 get_rocm_version - A (5)\n    M 490:4 precompiled_build_rust.run - A (5)\n    M 587:4 precompiled_wheel_utils.is_rocm_system - A (5)\n    M 735:4 precompiled_wheel_utils.warn_if_rocm_torch_version_mismatch - A (5)\n    F 78:0 get_missing_precompiled_rust_extension_modules - A (4)\n    M 650:4 precompiled_wheel_utils.detect_system_rocm_variant - A (4)\n    M 791:4 precompiled_wheel_utils.fetch_wheel_from_pypi_index - A (4)\n    F 140:0 should_bundle_tcmalloc - A (3)\n    F ",
+    "mi_output": "E:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_VLLM\\UPSTREAM\\setup.py - C (0.00)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_VLLM\\UPSTREAM\\.buildkite\\check-torch-abi.py - A (61.53)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_VLLM\\UPSTREAM\\.buildkite\\check-wheel-size.py - A (73.46)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_VLLM\\UPSTREAM\\benchmarks\\backend_request_func.py - A (24.52)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS"
+  }
+}
